@@ -6,6 +6,32 @@ body {
 
 #container {
   width: 90%;
-  background-color: #fff; }
+  margin: auto;
+  background-color: #fff;
+  text-align: center; }
+  #container img {
+    max-width: 40%;
+    margin: 1em;
+    display: inline-table; }
+
+h1 {
+  margin: 0;
+  padding: 1.5em 1em 1em 1em;
+  font-family: Helvetica,sans-serif;
+  text-transform: uppercase; }
+
+@media screen and (max-width: 768px) {
+  #container {
+    width: 95%;
+    margin: auto;
+    background-color: #fff;
+    text-align: center; }
+    #container img {
+      max-width: 90%;
+      margin: 1em;
+      display: inline-table; }
+
+  h1 {
+    font-size: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */
